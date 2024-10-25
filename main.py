@@ -5,7 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
-origins = ["https://save-ur-jav.vercel.app/","https://*"]
+origins = ["*"]
 
 app.add_middleware(
     CORSMiddleware,
